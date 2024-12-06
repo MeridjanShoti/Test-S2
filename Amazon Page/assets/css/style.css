@@ -6,6 +6,7 @@ html{
 
 .centerText {
 text-align: center;
+text-wrap: nowrap;
 }
 .iBlock p, .iBlock a, .iBlock div, ul li{
     display: inline-block;
@@ -114,4 +115,7 @@ p.fwm{
 }
 .imgGroup{
 
+}
+.allineamento{
+    margin-left: 0;
 }
