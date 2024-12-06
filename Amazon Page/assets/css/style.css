@@ -6,15 +6,28 @@ html{
 .centerText {
 text-align: center;
 }
-.box{
-    margin: 20px
+.iBlock p, .iBlock a, .iBlock div, ul li{
+    display: inline-block;
 }
-.radShad{
-border-radius: 5%;
-box-shadow: 1% 1% 1% rgb(68, 68, 68);
+.box{
+    margin: 2em;
+    padding: 2em;
+}
+
+#img1, #img2, #img3, #img4 {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 19.2em; 
+    height: 25em; 
+    border-radius: 5%; 
+    box-shadow: 1% 1% 1% rgb(68, 68, 68);
+    margin-top: 1em;
+    margin-right: 2em;
+
 }
 .imgGroup{
-width: 25%;
+    margin: auto;
 }
 .imgS2{
 
@@ -22,11 +35,14 @@ width: 25%;
 .imgS3{
 
 }
+.white{
+    background-color: #FFFFFF;
+}
 .bgOrange{
     background-color: #F56600;
 }
 #title{
-background-image: url(../images/bg-image.png);
+background-image: url("../images/bg-image.png");
 }
 .bgInt{
     background-color: #364759;
@@ -45,10 +61,4 @@ main{
 }
 #img4{
     background-image: url(../images/img_4.jpg);
-}
-#img5{
-    background-image: url(../images/img_9.png);
-}
-#img6{
-    background-image: url(../images/img_10.png);
 }
