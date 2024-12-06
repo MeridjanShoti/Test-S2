@@ -1,8 +1,9 @@
 /* Your styles here */
 html{
-    background-color: #222F3F;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .centerText {
 text-align: center;
 }
@@ -13,52 +14,99 @@ text-align: center;
     margin: 2em;
     padding: 2em;
 }
-
+.box2{
+    margin:0;
+    padding: 0 2em 0 2em;
+}
+footer .bgInt{
+    margin-top: 0;
+    padding: 1em;
+}
+ul a{
+    text-decoration: none;
+}
+h1{
+    font-weight: 700;
+    font-size: 2em;
+}
 #img1, #img2, #img3, #img4 {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    width: 19.2em; 
-    height: 25em; 
     border-radius: 5%; 
     box-shadow: 1% 1% 1% rgb(68, 68, 68);
     margin-top: 1em;
     margin-right: 2em;
+    width: 19em;
+    height: 25em;
 
 }
-.imgGroup{
-    margin: auto;
+section div img{
+    width: 100%;
 }
-.imgS2{
+.caption{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
 
+ul{
+    margin-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
-.imgS3{
+li {margin-right: 1em;}
 
-}
 .white{
     background-color: #FFFFFF;
 }
 .bgOrange{
     background-color: #F56600;
+    padding: 1em;
+    margin: 2em;
 }
 #title{
 background-image: url("../images/bg-image.png");
+padding: 5em;
+}
+h1{
+    margin-bottom: 1.5em;
 }
 .bgInt{
     background-color: #364759;
 }
-main{
+body{
     background-color: #E9EDEE;
 }
 #img1{
     background-image: url(../images/img_1.jpg);
+    max-width: 100%;
 }
 #img2{
     background-image: url(../images/img_2.jpg);
+    max-width: 100%;
+
 }
 #img3{
     background-image: url(../images/img_3.jpg);
+    max-width: 100%;
+
 }
 #img4{
     background-image: url(../images/img_4.jpg);
+    max-width: 100%;
+}
+.wt, .wt a{
+    color: white;
+}
+p.fwm{
+    font-weight: 550;
+    font-size: 1.2em;
+}
+.blu{
+    font-weight: 600;
+    color: #428191;
+    text-decoration: none;
+}
+.bgEst{
+    background-color: #222F3F;
 }
