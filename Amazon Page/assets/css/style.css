@@ -37,8 +37,8 @@ h1{
     box-shadow: 19px 19px 15px -9px rgba(0, 0, 0, 0.527);
     margin-top: 1em;
     margin-right: 2em;
-    width: 25.5em;
-    height: 30em;
+    width: 22.4%;
+    height: 25vw;
 
 }
 section div img{
@@ -111,4 +111,7 @@ p.fwm{
 }
 .bgEst{
     background-color: #222F3F;
+}
+.imgGroup{
+
 }
