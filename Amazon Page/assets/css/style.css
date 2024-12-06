@@ -1,4 +1,54 @@
 /* Your styles here */
-.centerText{
-    
+html{
+    background-color: #222F3F;
+    box-sizing: border-box;
+}
+.centerText {
+text-align: center;
+}
+.box{
+    margin: 20px
+}
+.radShad{
+border-radius: 5%;
+box-shadow: 1% 1% 1% rgb(68, 68, 68);
+}
+.imgGroup{
+width: 25%;
+}
+.imgS2{
+
+}
+.imgS3{
+
+}
+.bgOrange{
+    background-color: #F56600;
+}
+#title{
+background-image: url(../images/bg-image.png);
+}
+.bgInt{
+    background-color: #364759;
+}
+main{
+    background-color: #E9EDEE;
+}
+#img1{
+    background-image: url(../images/img_1.jpg);
+}
+#img2{
+    background-image: url(../images/img_2.jpg);
+}
+#img3{
+    background-image: url(../images/img_3.jpg);
+}
+#img4{
+    background-image: url(../images/img_4.jpg);
+}
+#img5{
+    background-image: url(../images/img_9.png);
+}
+#img6{
+    background-image: url(../images/img_10.png);
 }
