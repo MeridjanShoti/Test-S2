@@ -66,7 +66,9 @@ li {margin-right: 1em;}
 }
 #title{
 background-image: url("../images/bg-image.png");
-padding: 5em;
+background-position: top;
+padding: 6em;
+background-size: contain;
 }
 h1{
     margin-bottom: 1.5em;
